@@ -5,14 +5,13 @@ import { getStorage } from "firebase/storage";
 
 //! REPLACE VALUES BELOW WITH YOUR OWN FIREBASE CONFIG
 const firebaseConfig = {
-  apiKey: "*****",
-  authDomain: "*****",
-  databaseURL: "*****",
-  projectId: "*****",
-  storageBucket: "*****",
-  messagingSenderId: "*****",
-  appId: "*****",
-  measurementId: "*****",
+  apiKey: "AIzaSyAm3we9_IZF8u0BwVwPfYmflHyK2jOVDOY",
+  authDomain: "tiktok-faresh9.firebaseapp.com",
+  projectId: "tiktok-faresh9",
+  storageBucket: "tiktok-faresh9.firebasestorage.app",
+  messagingSenderId: "725231187684",
+  appId: "1:725231187684:web:70ec4f7940fb0e60dc5ef1",
+  measurementId: "G-KQV3JWLZD2"
 };
 
 export const FIREBASE_APP = initializeApp(firebaseConfig);
